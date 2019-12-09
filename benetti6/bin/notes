@@ -1,0 +1,68 @@
+Assignment Requirements
+
+Create a new Java Project in named as before, smith6 or jones6 for example.
+Create a package with the very same name as your project name.
+In this one package, write one Java program for each exercise as required below.
+Adhere to naming conventions for variables and classes as in section 2.8.
+Choose descriptive variable names and identifiers in all programs.
+Start each program with your name and SPC ID# in a comment.
+Add a few more comments in each program to explain what your code is doing.
+When all programs are done, locate your project folder in your workspace.
+Right-click on the project folder folder (don't open it!) and select "Send to" --> "Compressed (zipped) folder". This will make a zip with the same name as your project.
+Take screenshots of your running project (the Java code) and the project output and put them in a separate folder. Name it "screenshots" + module #+ your last name. The screenshots can be jep or png files. Zip up the folder.
+Upload the zipped folders to this drop box.
+Type your collaboration statement (Have you worked with others or used other resources on this assignments?) into the message area of the drop box.
+Submit your assignment.
+Program 1
+
+Two files are required, a data class named Book and an executable class named TestBook.
+
+Class Book
+
+has instance data members (all private) String title, String author, int pages, double price.
+has a public static int variable named numBooks with an initial value of zero.
+has a parameterized constructor that will be used to make a Book object and assign values to its data members, and increment numBooks.
+has a no-arg constructor that increments numBooks.
+has getters and setters for all instance data members.
+has a toString() method that returns a string displaying the state of a Book instance.
+Use the numBooks variable to report the number of books instantiated.
+Class TestBook
+This class needs a main method and two more methods.
+In main:
+
+create an array capable of holding six Book objects.
+use the parameterized constructor to specify the data in the first four elements of this array
+use the no-arg constructor to create the two remaining books in the array.  
+process the array with a foreach loop to display the array at this point.
+call the finishArray() method with the array as the only argument.
+call the reduceBooks() method with the array as the sole argument.
+repeat the code needed by Step 4 above.
+display the most expensive book after the discounts.
+In finishArray():
+
+this is a void method.
+use the setter methods to specify the data in all fields of the last two books in the array.
+In reduceBooks():
+
+this method returns a Book instance.
+use a loop (any type) to reduce the price of every book in the array by 40%.
+determine the most expensive book after the discounts and return this book to main.
+SAMPLE OUTPUT
+
+books
+
+Program 2
+Write a Java program that prompts the user to enter a password that matches a specific pattern. Your program must approve the user's entry.. Here is the pattern, in this order:
+
+1 or more upper case letters
+two lower case letters
+1 or 2 digits
+zero or 1 upper case letters
+any two of this group @#$%^&
+Program 3
+
+Prompt the user to enter a string containing a hexadecimal number.
+Use class Integer to parse the input to a base-10 integer variable and display it.
+Convert this base-10 variable to a string holding an equivalent number in binary.
+Print this binary equivalent.
+Use class Integer to convert the binary string back to base-10 and display it.

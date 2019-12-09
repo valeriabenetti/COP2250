@@ -1,0 +1,47 @@
+Assignment Requirements
+
+Create a new Java Project in your Eclipse workspace named as before, smith3 or jones3 for example.
+Create a package with the very same name as your project name.
+In this one package, write one Java program for each exercise as required below.
+Adhere to naming conventions for variables and classes as in section 2.8.
+Choose descriptive variable names and identifiers in all programs.
+Start each program with your name and SPC ID# in a comment.
+Add a few more comments in each program to explain what your code is doing.
+When all programs are done, locate your project folder in your workspace.
+Right-click on the project folder folder (don't open it!) and select "Send to" --> "Compressed (zipped) folder". This will make a zip with the same name as your project.
+Take screenshots of your running project (the Java code) and the project output and put them in a separate folder. Name it "screenshots" + module #+ your last name. The screenshots can be jep or png files. Zip up the folder.
+Upload the zipped folders to this drop box.
+Type your collaboration statement (Have you worked with others or used other resources on this assignments?) into the message area of the drop box.
+Submit your assignment.
+1. Write a program that uses one loop to process the integers from 300 down to 200, inclusive. 
+The program should detect multiples of 11 or 13, but not both. 
+The multiples should be printed left-aligned in columns 8 characters wide, 5 multiples per line (See Example Output). 
+When all multiples have been displayed, the program should display the number of multiples found and their sum. 
+
+Example Output
+
+299     297     275     273     264     
+260     253     247     242     234     
+231     221     220     209     208     
+Found ?? integers totaling ??
+
+2. Write a program that generates a two-column table showing Fahrenheit temperatures from -40F to 120F and their equivalent Celsius temperatures. Each line in the table should be 5 degrees F more than the previous one. Both the Fahrenheit and Celsius temperatures should be accurate to 1 decimal place.
+
+3. Write a program that deliberately contains an endless or infinite while loop. The loop should generate multiplication questions with single digit random integers. Users can answer the questions and get immediate feedback. After each question, the user should be able to stop the questions and get an overall result. See Example Output.
+
+Example Output
+
+What is 7 * 6 ? 42
+Correct. Nice work!
+Want more questions y or n ? y
+What is 8 * 5 ? 40
+Correct. Nice work!
+Want more questions y or n ? y
+What is 5 * 5 ? 25
+Correct. Nice work!
+Want more questions y or n ? y
+What is 8 * 9 ? 66
+Incorrect. The product is 72
+Want more questions y or n ? n
+You scored 3 out of 4
+Done? Recheck the requirements to be sure. 

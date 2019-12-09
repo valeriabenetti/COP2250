@@ -1,0 +1,33 @@
+M1 Programming Assignments - Due11:59 PM
+Please review the Grading Metrics COP2250.doc
+
+Assignment Requirements
+
+Create a new Eclipse workspace (on desktop is good so it's easy to find later).
+Create a new Java Project in your workspace that includes your surname and the chapter # in the name of the project, such as smith1and2 or jones1and2.
+Create a package with the same name as your project. Do not make files in the default package.
+In this one package, write one Java program for each exercise as required below.
+Control of decimal places is not required for this assignment.
+Adhere to naming conventions for variables and classes as in Chapter 2, section 2.8.
+Choose descriptive variable names and identifiers in all programs.
+Use the Java style for braces.
+Start each program with your name and SPC ID# in a comment.
+Add a few more comments in each program to explain what your code is doing.
+When all programs are done, locate your project folder in your workspace.
+Right-click on the project folder folder (don't open it!) and select "Send to" --> "Compressed (zipped) folder". This will make a zip with the same name as your project.
+Take screenshots of your running project (the Java code) and the project output and put them in a separate folder. Name it "screenshots" + module #+ your last name. The screenshots can be jep or png files. Zip up the folder.
+Upload the zipped folders to this drop box.
+Type your collaboration statement (Have you worked with others or used other resources on this assignments?) into the message area of the drop box.
+Submit your assignment.
+1. Write a program that outputs three lines:
+
+your full name
+the full name of the programmer who created Java
+Java rocks!
+2. Write a program that prints the result of this expression.
+
+(12.5 + 5.5 / 3) / (6.25 * 6 - 5.0)
+
+3. Write a program that prompts the user to enter a weight in kilograms and then displays the equivalent weight in pounds. Control of decimal places is not required.
+
+Done? Check the requirements again to be sure!
